@@ -1201,6 +1201,8 @@ padding: 40px;
   border-color: #2196F3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+.footer-inp:focus::placeholder{
+  color: #ffffff;}
 
 .modal_form_icon{
   display: block;
@@ -1351,7 +1353,7 @@ outline: none;
 .modal_form_btn_foot{
  position: absolute;
  top:107px;
- left:  498px;
+ left:  493px;
  width: 200px;
 height: 50px;
 background: #2196F3;
