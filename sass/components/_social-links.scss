@@ -1,0 +1,57 @@
+.social-network {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.social-network-link {
+  /* родной цвет окошка*/
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-network-link-footer {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-network-link:hover,
+.social-network-link:focus {
+  background: #2196f3; /* наводим на ссылку и получаем ховер*/
+}
+
+.social-network-link:hover .network-photo,
+.social-network-link:focus .network-photo {
+  fill: #ffffff;
+}
+.social-network-link-footer:hover,
+.social-network-link-footer:focus {
+  background: #2196f3;
+  outline: none;
+}
+.social-network-link-footer {
+  width: 44px;
+  height: 44px;
+  background: #2f303a;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

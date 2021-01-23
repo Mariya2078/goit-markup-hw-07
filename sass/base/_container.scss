@@ -1,0 +1,10 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  list-style: none;
+  /*justify-content: center;*/
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+}

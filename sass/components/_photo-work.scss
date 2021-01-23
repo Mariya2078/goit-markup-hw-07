@@ -1,0 +1,143 @@
+.photo-work {
+  padding-right: 30px;
+  position: relative;
+}
+.photo-before-list {
+  display: flex;
+  list-style-type: none;
+}
+.photo-before-list-icon {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.photo-before {
+  padding-top: 95px;
+  padding-bottom: 30px;
+}
+.photo-before-list-icon {
+  margin-right: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.work-process {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.work-blok {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.advance {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  margin: 0 auto;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  position: absolute;
+  top: 225px;
+}
+.social-network-items {
+  padding-right: 10px;
+}
+.our-client {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.client-list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.client {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.client-items {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.container-client {
+  width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  list-style: none;
+  /*justify-content: center;*/
+}
+.client-photo {
+  color: #afb1b8; /*родной цвет иконки*/
+  display: flex;
+  align-items: center;
+}
+.client-photo {
+  fill: currentColor; /* утверждаем родной цвет*/
+}
+
+.client-items-link {
+  display: flex;
+  border: 1px solid #afb1b8;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  outline-color: #2196f3;
+}
+
+.client-items-link:hover .client-photo {
+  color: #2196f3;
+}
+
+.mail {
+  width: 20px;
+  height: 20px;
+  color: #afb1b8; /*родной цвет иконки*/
+}
+.mail {
+  fill: currentColor; /* утверждаем родной цвет*/
+}
+
+.client-items-link:hover {
+  border-color: #2196f3;
+}
+
+.client-items-link:hover .client-photo,
+.client-items-link:focus .client-photo {
+  color: #2196f3;
+}

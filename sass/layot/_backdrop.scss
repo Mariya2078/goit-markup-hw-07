@@ -1,0 +1,63 @@
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 500ms linear;
+}
+.modal {
+  width: 528px;
+  min-height: 581px;
+  background-color: white;
+  position: absolute;
+  top: 50%; /*ИДЕАЛЬНОЕ ЦЕНТРИРОВАНИЕ*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+}
+.capital_later {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 12px;
+}
+.late {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.later_modal {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.close-btn {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  right: 8px;
+  top: 8px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+}
+.is-hidden {
+  opacity: 0; /*прячем кнопку*/
+  visibility: hidden;
+  pointer-events: none;
+}
