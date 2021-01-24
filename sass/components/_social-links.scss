@@ -20,28 +20,19 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background: #2196f3; /* наводим на ссылку и получаем ховер*/
+  }
+  &:hover .network-photo,
+  &:focus .network-photo {
+    fill: #ffffff;
+  }
 }
 .social-network-link-footer {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-network-link:hover,
-.social-network-link:focus {
-  background: #2196f3; /* наводим на ссылку и получаем ховер*/
-}
-
-.social-network-link:hover .network-photo,
-.social-network-link:focus .network-photo {
-  fill: #ffffff;
-}
-.social-network-link-footer:hover,
-.social-network-link-footer:focus {
-  background: #2196f3;
-  outline: none;
-}
-.social-network-link-footer {
   width: 44px;
   height: 44px;
   background: #2f303a;
@@ -54,4 +45,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  &:hover,
+  &:focus {
+    background: #2196f3;
+    outline: none;
+  }
 }
